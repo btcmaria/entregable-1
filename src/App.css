@@ -1,0 +1,117 @@
+.app{
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.app__title {
+    font-size: 2.5em;
+    position: absolute;
+    top: 2em;
+    color: rgb(194, 219, 70);
+    text-shadow: 
+    -1px -1px 0 white,
+    1px -1px 0 white,
+
+    -1px 1px 0 white
+}
+
+
+.card{
+    font-size: 1rem;
+    padding: 1.5em;
+    border-radius: 0.8em;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    line-height: 1.6;
+    border: 0.11em solid #a4d07bb2;
+}
+
+.app__btn {
+    padding: 1em 1.5em;
+    font-size: 1rem;
+    border-radius: 0.5em;
+    background-color: #FFA645;
+    font-weight: 500;
+    color: #893446;
+    border: 0.1em solid currentColor;
+    transition: transform 100ms ease, filter 100ms ease;
+}
+.app__btn:hover{
+    transform: scale(1.05); 
+    filter: brightness(1.1);
+}
+
+.authors{ 
+    padding: 1.5em;
+    border-radius: 0.8em;
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff8a;
+    text-align: center;   
+    color: rgb(145, 182, 24);  
+}
+
+@media (max-width:600px){
+
+    .app__title {
+        background-size: cover;
+        min-height: 100vh;
+        position: absolute;
+        top: 0.8em;
+        color: rgb(211, 191, 230);
+        text-shadow: 
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white
+    }
+
+    .app{
+        padding: 2em;
+        background-position: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.5em;
+        font-size: 20px;
+    }
+
+    .card{
+        font-size: 0.9rem;
+        padding: 1em;
+        border-radius: 0.8em;
+        width: 100%;
+        max-width: 200px;
+        background-color: white;
+        line-height: 1.6;
+        border: 0.11em solid #d3b3f3b2;
+    }
+
+    .app__btn {
+        padding: 1em 1.5em;
+        font-size: 0.9rem;
+        border-radius: 0.5em;
+        background-color: #cfc8d4;
+        font-weight: 500;
+        color: #ae7fe8;
+        border: 0.1em solid currentColor;
+        transition: transform 100ms ease, filter 100ms ease;
+    }
+
+    .authors{
+        color: #c0acd8;
+    }
+}
+
+
+/*background-size: cover;
+        min-height: 100vh;
+*/
